@@ -1,8 +1,8 @@
 ## The functions in this file are used to store and manipulate a special matrix
-## object and to calculate its inverse.  They utilize the R language's lexical
-## scoping chracteristics to enable caching of a calculated inverse value to 
-## run more by preventing unnecessary recalculation of the sometimes costly 
-## inverse() function.
+## object and to calculate its inverse.  They also utilize the R language's 
+## lexical scoping chracteristics to enable caching of a calculated inverse
+## value to run more efficiently by preventing the unnecessary and sometimes 
+## costly recalculation with the solve() function.
 
 
 ## makeCacheMatric() is used to create a special matrix object and to define
